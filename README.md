@@ -1,6 +1,6 @@
 # URL
 https://c3-exprential.herokuapp.com/
-#### Just open the above URL to view the dashboard ####
+#### Just open the above URL on your laptop to view the dashboard ####
 ## Languages Used ##
 HTML,CSS,JAVASCRIPT
 ## Libraries Used ##
