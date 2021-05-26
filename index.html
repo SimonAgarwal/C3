@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>C3 </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.0/chart.min.js" integrity="sha512-yadYcDSJyQExcKhjKSQOkBKy2BLDoW6WnnGXCAkCoRlpHGpYuVuBqGObf3g/TdB86sSbss1AOP4YlGSb6EKQPg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+       <div id="header" class="d-flex justify-content-between">
+        <div class="logo">
+            <div class="d-flex justify-content-between">
+                <img src="./assets/grad.png">
+                <p>Intenly</p>
+            </div>
+        </div>
+        <div class="icon-bar">
+            <div class="d-flex justify-content-between">
+                <div id="heart">
+                    <i class="far fa-heart"></i>
+                </div>
+                <div id="bell">
+                    <i class="far fa-bell"></i>
+                </div>
+                <div id="name">
+                    <p>Hugo Olafsson</p>
+                </div>
+                <div class="profile d-flex justify-content-center">
+                        <img src="./assets/profile.jpg">
+                    </div>
+                    <div id="down">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                 
+            </div>
+
+        </div>
+
+       </div>
+       <div class="body d-flex justify-content-between">
+           <div class="side-bar">
+            <ul class="menu">
+                <li><i class="fas fa-graduation-cap side"></i></li>
+                <li><i class="far fa-comment"></i></li>
+                <li><i class="far fa-star"></i></li>
+                <li><i class="fas fa-bolt"></i></li>
+            </ul>
+           </div>
+           <div class=" home-contain">
+           <div class="home">
+               <ul class="home-menu">
+                <li>
+                    <p><i class="fas fa-home"></i> Home</p>
+                </li>
+                <li>
+                    <p><i class="fas fa-suitcase-rolling"></i> Tutoring</p>
+                </li>
+                <li>
+                    <p><i class="fas fa-book-open"></i> My Courses</p>
+                </li>
+                <li>
+                    <p><i class="fas fa-graduation-cap"></i> My School</p>
+                </li>
+                <li>
+                    <p><i class="far fa-sticky-note"></i> Tests</p>
+                </li>
+               </ul>
+              
+              
+           </div>
+           <div class="home notes">
+            <ul class="home-menu">
+             <li>
+                 <p><i class="fas fa-pencil-alt"></i> Notes</p>
+             </li>
+             <li>
+                 <p><i class="far fa-bookmark"></i> Bookmarks</p>
+             </li>
+             <li>
+                 <p><i class="fas fa-cog"></i> Settings</p>
+             </li>
+            </ul>
+
+        </div>
+        <div class="yellow-card">
+            <p class="card-one">Download our mobile app</p>
+            <p>intelymobile.com</p>
+
+        </div>
+        <div class="monkey">
+            <div>
+                <div>
+                    <img src="./assets/monkey.jpg">
+                </div>
+
+            </div>
+            <div class="monkey-content">
+                <h4>Invite Friends</h4>
+                <p>Get Free months of Premium</p>
+                <button class="btn btn-primary invite">Get the Link</button>
+            </div>
+
+        </div>
+</div>
+
+<div class="center">
+    <div class="center-header d-flex justify-content-between">
+            <h3>Hi,champion!</h3>
+            <p>Bytes Counter</p>
+</div>
+<div class="d-flex justify-content-between"> 
+    <div class="left">
+        <div class="upcoming">
+            <p>Upcoming lessons</p>
+            <ul class="upcoming-list">
+                <li>
+                    <div class="lesson d-flex justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div class="date">
+                                <h6>Jun,10</h6>
+                                <p>4:00 PM</p>
+                            </div>
+                            <div class="location">
+                                <h6>Tutoring,Algebra</h6>
+                                <p>Kiersten Lange</p>
+                            </div>
+                        </div>
+                        <div class="upcoming-profile">
+                            <div class="profile d-flex justify-content-center">
+                                <img src="./assets/profile3.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="lesson d-flex justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div class="date">
+                                <h6>Jun,10</h6>
+                                <p>4:00 PM</p>
+                            </div>
+                            <div class="location">
+                                <h6>School Homework</h6>
+                                <p>Global history/Analysis</p>
+                            </div>
+                        </div>
+                        <div class="upcoming-profile">
+                            <div class="profile d-flex justify-content-center">
+                                <img src="./assets/profile4.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+                <li>
+                    <div class="lesson d-flex justify-content-between">
+                        <div class="d-flex justify-content-between">
+                            <div class="date">
+                                <h6>Jun,10</h6>
+                                <p>5:00 PM</p>
+                            </div>
+                            <div class="location">
+                                <h6>French Language</h6>
+                                <p>Pierre Hackett</p>
+                            </div>
+                        </div>
+                        <div class="upcoming-profile">
+                            <div class="profile d-flex justify-content-center">
+                                <img src="./assets/profile5.jpg">
+                            </div>
+                        </div>
+                    </div>
+
+                </li>
+            </ul>
+           
+        </div>
+        <!--area chart-->
+        <div class="chart">
+            <div id="chart_div" ></div>
+        </div>
+        <!--polar chart-->
+       <div class="polar">
+        <canvas id="myChart" width="400" height="400"></canvas>
+       </div>
+    </div>
+    <div class="right">
+        <!--Leaderboard-->
+        <div class="leader">
+            <div class="leader-header d-flex justify-content-between">
+                <p>Leaderboard</p>
+                <input type="text" placeholder="English" class="english">
+            </div>
+<div class="leader-content d-flex justify-content-between">
+    <ul class="people">
+        <li class="d-flex justify-content-between leader-title">
+            <div class="leader-rank">
+                <p>Rank</p>
+        </div>
+        <div class="leader-name">
+            <p>Name</p>
+        </div>
+        <div class="leader-score">
+            <p>Best Score</p>
+        </div>
+        <div class="leader-point">
+            <p>Points</p>
+        </div>
+    </li>
+    <li class="d-flex justify-content-between">
+        <div class="leader-rank">
+            <p>1 <i class="fas fa-sort-up"></i></p>
+    </div>
+    <div class="leader-name">
+        <p>    <img src="./assets/profile5.jpg"> Patrick Alvestron</p>
+    </div>
+    <div class="leader-score">
+        <p>98</p>
+    </div>
+    <div class="leader-point">
+        <p>2324</p>
+    </div>
+    </li>
+          
+
+    <li class="d-flex justify-content-between">
+        <div class="leader-rank">
+            <p>2 <i class="fas fa-circle"></i></p>
+    </div>
+    <div class="leader-name">
+        <p><img src="./assets/profile3.jpg"> Jeniffer Hudson</p>
+    </div>
+    <div class="leader-score">
+        <p>96</p>
+    </div>
+    <div class="leader-point">
+        <p>2310</p>
+    </div>
+</li>
+
+<li class="d-flex justify-content-between">
+    <div class="leader-rank">
+        <p>3 <i class="fas fa-sort-down"></i></p>
+</div>
+<div class="leader-name">
+    <p><img src="./assets/profile4.jpg">Stevia Rownders</p>
+</div>
+<div class="leader-score">
+    <p>97</p>
+</div>
+<div class="leader-point">
+    <p>2305</p>
+</div>
+</li>
+<li class="d-flex justify-content-between">
+    <div class="leader-rank">
+        <p>4 <i class="fas fa-circle"></i></p>
+</div>
+<div class="leader-name">
+    <p> <img src="./assets/profile6.jpg">Sam Anderson</p>
+</div>
+<div class="leader-score">
+    <p>89</p>
+</div>
+<div class="leader-point">
+    <p>2119</p>
+</div>
+</li>
+
+</ul>
+
+</div>
+</div>
+<!--Courses-->
+<div class="courses">
+<div class="courses-header d-flex justify-content-between">
+    <div class="d-flex justify-content-between course-heading">
+        <p>Your Courses</p>
+        <button class="btn btn-primary">Premium</button>
+    </div>
+    <div class="d-flex justify-content-between course-icons">
+        <div>
+            <i class="fas fa-bookmark"></i>
+        </div>
+        <div>
+            <i class="fas fa-search"></i>
+        </div>
+
+    </div>
+
+</div>
+<div class="courses-number d-flex justify-content-start">
+    <div class="d-flex justify-content-between">
+        <img src="./assets/profile6.jpg"><p>26 courses</p>
+    </div>
+
+</div>
+<div class="course-details d-flex justify-content-between">
+    <div class="course-1">
+        <div class="course-1-head d-flex justify-content-around">
+            <div>
+                <img src="./assets/pen2.png">
+            </div>
+            <div>
+                <p><span>BEGINNERS</span><br/>Art and Design</p>
+                
+            </div>
+        </div>
+        <div class="d-flex justify-content-between owner">
+            <p>by</p>
+            <img src="./assets/profile7.jpg">
+            <p class="course-owner">Brad Stevens</p>
+        </div>
+        <hr>
+        <div class="course-percent d-flex justify-content-between">
+            <div>
+                <p>60%</p>
+            </div>
+            <div class="percent-fill-1"></div>
+            <div>
+                <p><span>17</span>/26</p>
+            </div>
+            <div>
+                <img src="./assets/download.png">
+            </div>
+        </div>
+    </div>
+    <!--Second course-->
+    <div class="course-1">
+        <div class="course-1-head d-flex justify-content-around">
+            <div>
+                <img src="./assets/pen2.png">
+            </div>
+            <div>
+                <p><span style="color:red">ADVANCED</span><br/>Daily Workouts</p>
+                
+            </div>
+        </div>
+        <div class="d-flex justify-content-between owner">
+            <p>by</p>
+            <img src="./assets/profile9.jpg">
+            <p class="course-owner">Hailey Stuart</p>
+        </div>
+        <hr>
+        <div class="course-percent d-flex justify-content-between">
+            <div>
+                <p>39%</p>
+            </div>
+            <div class="percent-fill-1"></div>
+            <div>
+                <p><span>3</span>/8</p>
+            </div>
+            <div>
+                <img src="./assets/download.png">
+            </div>
+        </div>
+    </div>
+    <div class="course-more">
+        <div>
+            <i class="fas fa-plus-circle"></i>
+        </div>
+    
+    </div>
+
+</div>
+
+
+</div>
+<!--TASKS-->
+<div class="tasks">
+  <div>
+<p>Tasks</p>
+<ul>
+    <li>
+        <div class="task-title">
+            <p><i class="far fa-square"></i> Concise History of Jend Soedinum</p>
+        </div>
+        <div class="d-flex justify-content-between task-time">
+            <p>Due on 4:30 PM,3 Mar 2019</p>
+            <div>
+                <p>History</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-start task-profile">
+            <img src="./assets/profile10.jpg">
+            <p>Mrs.Shakeera</p>
+        </div>
+        
+    </li>
+    <li>
+        <div class="task-title">
+            <p><i class="far fa-square"></i> Make 3 carricature on papper</p>
+        </div>
+        <div class="d-flex justify-content-between task-time">
+            <p>Due on 2:40 PM,28 Feb 2019</p>
+            <div style="background-color: #87b7fa;">
+                <p>Art</p>
+            </div>
+        </div>
+        <div class="d-flex justify-content-start task-profile"style="width:50%">
+            <img src="./assets/profile12.png">
+            <p>Mr. Robert Sergio</p>
+        </div>
+        
+    </li>
+    <li style="text-align: center;">
+        <p>See More</p>
+    </li>
+</ul>
+  </div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+<!--Calender-->
+<div class="calender-main">
+    <div class="calender" >
+        <div class="month">      
+            <ul>
+              <li class="prev">&#10094;</li>
+              <li class="next">&#10095;</li>
+              <li>
+                August
+                <span style="font-size:18px">2020</span>
+              </li>
+            </ul>
+          </div>
+          
+          <ul class="weekdays">
+            <li>M</li>
+            <li>T</li>
+            <li>W</li>
+            <li>T</li>
+            <li>F</li>
+            <li>S</li>
+            <li>S</li>
+          </ul>
+          
+          <ul class="days">  
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+            <li>6</li>
+            <li>7</li>
+            <li>8</li>
+            <li>9</li>
+            <li><span class="active">10</span></li>
+            <li>11</li>
+            <li>12</li>
+            <li>13</li>
+            <li>14</li>
+            <li>15</li>
+            <li>16</li>
+            <li>17</li>
+            <li>18</li>
+            <li>19</li>
+            <li>20</li>
+            <li>21</li>
+            <li>22</li>
+            <li>23</li>
+            <li>24</li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+            <li>30</li>
+            <li>31</li>
+          </ul>
+          
+    
+    
+    </div>
+    <div class="homework">
+       <p>Homework Progress</p>
+       <div class="homework-items">
+           <ul>
+               <li style="background-color: #197029;color:white">
+                   <div class="d-flex justify-content-between">
+                    <div class="homework-chart" id="donutchart1" style="margin-left: 10px;">
+                       
+                    </div>
+                    <div class="homework-title">
+                        <p>Biology<br/><span style="font-size: 12px; color:white">September 7,Monday</span></p>
+                    </div>
+                    <div class="right-icon">
+                        <i class="fas fa-chevron-right"></i>
+                    </div>
+                   </div>
+
+               </li>
+               <li>
+                <div class="d-flex justify-content-between">
+                 <div class="homework-chart" id="donutchart2">
+                    <p>chart</p>
+                 </div>
+                 <div class="homework-title">
+                     <p>Physics<br/><span style="font-size: 12px;">September 7,Monday</span></p>
+                 </div>
+                 <div class="right-icon">
+                     <i class="fas fa-chevron-right"></i>
+                 </div>
+                </div>
+
+            </li>
+
+            <li>
+                <div class="d-flex justify-content-between">
+                 <div class="homework-chart" id="donutchart3">
+                    <p>chart</p>
+                 </div>
+                 <div class="homework-title">
+                     <p>Chemistry<br/><span style="font-size: 12px;">September 8,Tuesday</span></p>
+                 </div>
+                 <div class="right-icon">
+                     <i class="fas fa-chevron-right"></i>
+                 </div>
+                </div>
+
+            </li>
+
+            
+            <li>
+                <div class="d-flex justify-content-between">
+                 <div class="homework-chart" id="donutchart5">
+                    <p>chart</p>
+                 </div>
+                 <div class="homework-title">
+                     <p>Philosphy<br/><span style="font-size: 12px;">September 8,Tuesday</span></p>
+                 </div>
+                 <div class="right-icon">
+                     <i class="fas fa-chevron-right"></i>
+                 </div>
+                </div>
+
+            </li>
+           </ul>
+
+       </div>
+
+    </div>
+    <div class="goals">
+        <div class="d-flex justify-content-between">
+            <p>Goals</p>
+            <div class="d-flex justify-content-between input">
+                <p>Weekly</p>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+        <div  id="donutchart4">
+           
+         </div>
+
+    </div>
+    </div>
+    
+          
+</div>
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="index.js"></script>
+    </body>
+</html>
